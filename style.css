@@ -1,0 +1,48 @@
+body {
+    background-color: cadetblue;
+}
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+img{
+    
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 250px;
+    margin-right: 350px;
+    float: right;
+}
+.sidenav {
+    height: 100%; 
+    width: 130px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #325277; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #100cf5;
+    display: block;
+  }
+  .about {
+    text-align: center;
+  }
