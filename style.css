@@ -1,5 +1,5 @@
 body {
-    background-color: cadetblue;
+    background-image: linear-gradient(to right, red , blue);
     width: 100%;
     margin: 0%;
 }
@@ -86,8 +86,8 @@ li::before{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: black;
+    background-image: linear-gradient(rgb(6, 4, 7),rgb(61, 63, 78));
+    color: rgb(66, 245, 21);
     text-align: center;
     height: 150px;
     padding-top: 20px;
