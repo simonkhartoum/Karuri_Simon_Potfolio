@@ -26,7 +26,7 @@ h1{
     float: right;
 }
 .sidenav {
-    height: 100%; 
+    height: 510px; 
     width: 130px; 
     position: fixed; 
     z-index: 1; 
@@ -46,3 +46,24 @@ h1{
   .about {
     text-align: center;
   }
+  h2 {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  #list{
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+  }
+  li{
+    list-style: none;
+}
+li::before{
+    content: "\00BB";
+}
+p {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 100px;
+    margin-bottom: 20px;
+}
