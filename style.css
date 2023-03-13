@@ -86,7 +86,7 @@ li::before{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(rgb(6, 4, 7),rgb(61, 63, 78));
+    background-image: linear-gradient(rgb(6, 4, 7),rgb(75, 83, 143));
     color: rgb(66, 245, 21);
     text-align: center;
     height: 150px;
